@@ -1,0 +1,17 @@
+[package]
+  cjc-version = "0.60.5"
+  name = "urlr"
+  description = "nothing here"
+  version = "1.0.0"
+  target-dir = ""
+  src-dir = ""
+  output-type = "executable"
+  compile-option = ""
+  override-compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]
+  [target.x86_64-w64-mingw32]                                                     # 系统架构和 OS 信息
+    [target.x86_64-w64-mingw32.bin-dependencies]
+      path-option = ["C:\\cangjie-stdx-windows-x64-0.60.5.1\\windows_x86_64_llvm\\dynamic\\stdx"] # stdx 路径根据实际情况配置
